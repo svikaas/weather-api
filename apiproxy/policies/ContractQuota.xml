@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Quota async="false" continueOnError="false" enabled="true" name="ContractQuota" type="rollingwindow">
+    <DisplayName>Contract Quota</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <Allow countRef="verifyapikey.VerifyApiKey.apiproduct.developer.quota.limit"/>
+    <Interval ref="verifyapikey.VerifyApiKey.apiproduct.developer.quota.interval"/>
+    <TimeUnit ref="verifyapikey.VerifyApiKey.apiproduct.developer.quota.timeunit"/>
+  <Identifier ref="verifyapikey.VerifyApiKey.client_id"/>
+</Quota>

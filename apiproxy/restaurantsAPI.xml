@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="restaurantsAPI">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1434617661617</CreatedAt>
+    <CreatedBy>Maivizhi.Arunagiri@cognizant.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>restaurantsAPI</DisplayName>
+    <LastModifiedAt>1434714968874</LastModifiedAt>
+    <LastModifiedBy>Maivizhi.Arunagiri@cognizant.com</LastModifiedBy>
+    <Policies>
+        <Policy>ContractQuota</Policy>
+        <Policy>Generic-Error</Policy>
+        <Policy>Invalid-Api-Key</Policy>
+        <Policy>JavaScriptProcessRequest</Policy>
+        <Policy>Verify.ApiKey</Policy>
+        <Policy>VerifyApiKey</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://processRequest.js</Resource>
+    </Resources>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
