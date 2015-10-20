@@ -3,9 +3,9 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>apigee</groupId>
-	<artifactId>Restuarant-API</artifactId>
+	<artifactId>restaurants-v1</artifactId>
 	<version>-</version> <!-- hack to have readable zipped bundle name -->
-	<name>Restuarant-v1</name>
+	<name>restaurants-v1</name>
 	<packaging>pom</packaging>
 
 	<pluginRepositories>
