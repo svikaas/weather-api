@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "test",            
+            "policies": [],
+            "proxies": [{ "name": "default.xml",
+                    "tokens": [
+                        {
+                            "value": "/v1/hotels",
+                            "xpath": "/ProxyEndpoint/HTTPProxyConnection/BasePath"
+                        }
+                    ]}],
+            "targets": []
+        },        
+        {
+            "name": "prod",
+            "policies": [],
+            "proxies": [{ "name": "default.xml",
+                    "tokens": [
+                        {
+                            "value": "/v1/hotels",
+                            "xpath": "/ProxyEndpoint/HTTPProxyConnection/BasePath"
+                        }
+                    ]}],
+            "targets": []
+        }
+    ]
+}
