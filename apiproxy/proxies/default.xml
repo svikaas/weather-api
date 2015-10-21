@@ -24,7 +24,11 @@
     <Flows>
         <Flow name="get restaurants">
             <Description/>
-            <Request/>
+            <Request>
+                <Step>
+                    <Name>JavaScriptProcessRequest</Name>
+                </Step>
+            </Request>
             <Response/>
             <Condition>(proxy.pathsuffix MatchesPath &quot;/*&quot;) and (request.verb = &quot;GET&quot;)</Condition>
         </Flow>

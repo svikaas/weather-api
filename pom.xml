@@ -44,7 +44,7 @@
 				<apigee.org>svikaas</apigee.org>
 				<apigee.username>${username}</apigee.username>
 				<apigee.password>${password}</apigee.password>
-				<apigee.options>update</apigee.options>
+				<apigee.options>override</apigee.options>
 			</properties>
 		</profile>
 		
