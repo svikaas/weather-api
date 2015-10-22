@@ -1,28 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ProxyEndpoint name="default">
-    <FaultRules>
-        <FaultRule name="invalid_key_rule">
-            <Step>
-                <Name>Invalid-Api-Key</Name>
-            </Step>
-            <Condition>(fault.name = "InvalidApiKey")</Condition>
-        </FaultRule>
-    </FaultRules>
-    <DefaultFaultRule name="fault-rule">
-        <Step>
-            <Name>Generic-Error</Name>
-        </Step>
-    </DefaultFaultRule>
+    <Description/>
     <PreFlow name="PreFlow">
-        <Request>
-            <Step>
-                <Name>VerifyApiKey</Name>
-            </Step>
-        </Request>
+        <Request/>
         <Response/>
     </PreFlow>
     <Flows>
-        <Flow name="get restaurants">
+        <Flow name="GET Restaurants">
             <Description/>
             <Request>
                 <Step>
@@ -38,7 +22,7 @@
         <Response/>
     </PostFlow>
     <HTTPProxyConnection>
-        <BasePath>/v1/restaurantsapi</BasePath>
+        <BasePath>/v1/restaurants</BasePath>
         <VirtualHost>default</VirtualHost>
         <VirtualHost>secure</VirtualHost>
     </HTTPProxyConnection>

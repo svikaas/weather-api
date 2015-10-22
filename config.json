@@ -6,7 +6,7 @@
             "proxies": [{ "name": "default.xml",
                     "tokens": [
                         {
-                            "value": "/v1/hotels",
+                            "value": "/v2/restaurants",
                             "xpath": "/ProxyEndpoint/HTTPProxyConnection/BasePath"
                         }
                     ]}],
@@ -18,7 +18,7 @@
             "proxies": [{ "name": "default.xml",
                     "tokens": [
                         {
-                            "value": "/v1/hotels",
+                            "value": "/v2/restaurants",
                             "xpath": "/ProxyEndpoint/HTTPProxyConnection/BasePath"
                         }
                     ]}],
