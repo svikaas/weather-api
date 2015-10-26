@@ -3,8 +3,8 @@
 
 var apickli = require('apickli');
 
-var env = process.env.NODE_ENV || 'dev';
-console.log('running on ' + env + ' environment');
+var env = process.env.NODE_ENV || 'test';
+//console.log('running on ' + env + ' environment');
 
 module.exports = function() {
     // cleanup before every scenario
